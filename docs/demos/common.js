@@ -39,7 +39,10 @@ Locale.add({
     back: '返回',
     title: '标题',
     status: '状态',
-    button: '按钮',
+    button: 'button',
+    button3: 'I am <a>',
+    button1: 'I am <div>',
+    button2: 'I am <h1>',
     option: '选项',
     search: '搜索',
     content: '内容',
@@ -47,6 +50,11 @@ Locale.add({
     loading: '加载状态',
     disabled: '禁用状态',
     basicUsage: '基础用法',
+    basicUsageuno: 'Flex布局 Basic',
+    basicUsagedos: 'Flex布局 Wrap',
+    basicUsagetres: 'Flex布局 Align',
+    basicUsagecuatro: 'WhiteSpace 上下留白',
+    basicUsagecenco: 'WingBlank 两翼留白',
     advancedUsage: '高级用法'
   },
   'en-US': {

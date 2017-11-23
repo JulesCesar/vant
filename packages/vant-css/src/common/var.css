@@ -1,11 +1,12 @@
 /* color variables */
 $black: #000;
 $white: #fff;
-$red: #f44;
+$red: #e94f4f;
 $blue: #38f;
 $orange: #f60;
 $green: #06bf04;
 $gray: #c9c9c9;
+$diabled: #b9b3b3;
 $gray-light: #e5e5e5;
 $gray-darker: #666;
 $gray-dark: #999;
@@ -18,7 +19,7 @@ $background-color: #f8f8f8;
 
 /* button */
 $button-primary-color: $white;
-$button-primary-background-color: #4b0;
+$button-primary-background-color: #108ee9;
 $button-primary-border-color: #0a0;
 $button-default-color: $text-color;
 $button-default-background-color: $white;
@@ -33,3 +34,10 @@ $bottom-action-button-default-color: $white;
 $bottom-action-button-default-background-color: #f85;
 $bottom-action-button-primary-color: $white;
 $bottom-action-button-primary-background-color: $red;
+$button-defaultdisabled-background-color:$diabled;
+$button-primarydisabled-background-color: #108ee9;
+$button-primarydisabled-color: $white;
+$button-dangerdisabled-color: $white;
+$button-dangerdisabled-background-color:$red;
+
+/* $button-defaultdisabled-color:$diabled; */

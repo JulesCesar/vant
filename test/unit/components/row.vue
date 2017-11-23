@@ -15,11 +15,13 @@
 <script>
 import Row from 'packages/row';
 import Col from 'packages/col';
+import Flex from 'packages/flex';
 
 export default {
   components: {
     'van-row': Row,
-    'van-col': Col
+    'van-col': Col,
+    'van-flex': Flex
   }
 };
 </script>

@@ -1,0 +1,12 @@
+@import './common/var.css';
+.van-flex{
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -3,6 +3,9 @@ import Actionsheet from './actionsheet';
 import AddressEdit from './address-edit';
 import AddressList from './address-list';
 import Area from './area';
+import Align from './align';
+import Accordion from './accordion';
+
 import Badge from './badge';
 import BadgeGroup from './badge-group';
 import Button from './button';
@@ -21,6 +24,8 @@ import CouponList from './coupon-list';
 import DatetimePicker from './datetime-picker';
 import Dialog from './dialog';
 import Field from './field';
+import Flex from './flex';
+
 import GoodsAction from './goods-action';
 import GoodsActionBigBtn from './goods-action-big-btn';
 import GoodsActionMiniBtn from './goods-action-mini-btn';
@@ -68,6 +73,8 @@ const components = [
   AddressEdit,
   AddressList,
   Area,
+  Align,
+  Accordion,
   Badge,
   BadgeGroup,
   Button,
@@ -85,6 +92,7 @@ const components = [
   CouponList,
   DatetimePicker,
   Field,
+  Flex,
   GoodsAction,
   GoodsActionBigBtn,
   GoodsActionMiniBtn,
@@ -139,6 +147,8 @@ export {
   AddressEdit,
   AddressList,
   Area,
+  Align,
+  Accordion,
   Badge,
   BadgeGroup,
   Button,
@@ -157,6 +167,7 @@ export {
   DatetimePicker,
   Dialog,
   Field,
+  Flex,
   GoodsAction,
   GoodsActionBigBtn,
   GoodsActionMiniBtn,

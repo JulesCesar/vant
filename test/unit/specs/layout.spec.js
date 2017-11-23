@@ -1,6 +1,7 @@
 import { mount } from 'avoriaz';
 import Col from 'packages/col';
 import Row from 'packages/row';
+import Flex from 'packages/flex';
 import RowTestComponent from '../components/row';
 
 describe('Layout', () => {
@@ -13,6 +14,7 @@ describe('Layout', () => {
     wrapper = mount(Row);
 
     expect(wrapper.hasClass('van-row')).to.be.true;
+    expect(wrapper.hasClass('van-flex')).to.be.true;
     expect(wrapper.vm.style).to.be.empty;
   });
 
